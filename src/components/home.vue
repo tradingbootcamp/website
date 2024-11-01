@@ -2,12 +2,7 @@
 <template>
   <Layout>
     <div class="hero-section">
-      <div class="absolute inset-0 z-0">
-        <div v-for="n in 100" :key="n" 
-             class="market-symbol absolute animate-float opacity-5 random-position">
-          {{ ['$', '€', '¥', '£', '₿'][Math.floor(Math.random() * 7)] }}
-        </div>
-      </div>
+
 
       <div class="hero-container">
         <h1 class="hero-title">
