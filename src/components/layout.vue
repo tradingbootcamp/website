@@ -1,6 +1,6 @@
 <!-- Layout.vue -->
 <template>
-    <div class="min-h-screen bg-gray-50">
+    <div class="min-h-screen bg-gray-50 flex flex-col">
       <!-- Navbar -->
       <nav class="bg-white shadow-sm">
         <div class="max-w-6xl mx-auto px-4">
@@ -16,9 +16,9 @@
               <router-link to="/team" class="text-gray-600 hover:text-gray-900">Team</router-link>
               <router-link to="/faq" class="text-gray-600 hover:text-gray-900">FAQ</router-link>
               <router-link to="/socialproof" class="text-gray-600 hover:text-gray-900">Social Proof</router-link>
-              <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+              <a :href="registerUrl" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                 Register
-              </button>
+              </a>
             </div>
   
             <div class="md:hidden flex items-center">
@@ -41,54 +41,28 @@
             <router-link to="/team" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Team</router-link>
             <router-link to="/faq" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">FAQ</router-link>
             <router-link to="/socialproof" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Social Proof</router-link>
-            <button class="block w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+            <a :href="registerUrl" class="block w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
               Register
-            </button>
+            </a>
           </div>
         </div>
       </nav>
   
       <!-- Main Content -->
-      <slot></slot>
+      <div class="flex-grow">
+        <slot></slot>
+      </div>
   
       <!-- Footer -->
       <footer class="bg-gray-800 text-white">
         <div class="max-w-6xl mx-auto px-4 py-8">
-          <div class="grid md:grid-cols-4 gap-8">
+          <div class="flex justify-center">
             <div>
-              <h4 class="text-lg font-semibold mb-4">About</h4>
-              <p class="text-gray-400">
-                Your company description goes here.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-lg font-semibold mb-4">Links</h4>
-              <ul class="space-y-2">
-                <li><router-link to="/" class="text-gray-400 hover:text-white">Home</router-link></li>
-                <li><router-link to="/schedule" class="text-gray-400 hover:text-white">Schedule</router-link></li>
-                <li><router-link to="/team" class="text-gray-400 hover:text-white">Team</router-link></li>
-                <li><router-link to="/faq" class="text-gray-400 hover:text-white">FAQ</router-link></li>
+              <h4 class="text-lg font-semibold mb-4 text-center">Contact</h4>
+              <ul class="space-y-2 text-gray-400 text-center">
+                <li>ricki dot heicklen at gmail</li>
               </ul>
             </div>
-            <div>
-              <h4 class="text-lg font-semibold mb-4">Contact</h4>
-              <ul class="space-y-2 text-gray-400">
-                <li>123 Street Name</li>
-                <li>City, Country</li>
-                <li>contact@example.com</li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
-              <div class="flex space-x-4">
-                <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
-                <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
-                <a href="#" class="text-gray-400 hover:text-white">GitHub</a>
-              </div>
-            </div>
-          </div>
-          <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-            <p>&copy; {{ new Date().getFullYear() }} Your Company. All rights reserved.</p>
           </div>
         </div>
       </footer>
@@ -100,4 +74,5 @@
   import { Menu, X } from 'lucide-vue-next'
   
   const isMenuOpen = ref(false)
+  const registerUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG-rmMIe0CmktmMVCyF1stNLcyX09WpcA/viewform"
   </script>
