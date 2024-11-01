@@ -15,4 +15,4 @@ This is the website for Trading Bootcamp by Ricki Heicklen.
 4. `pnpm build`
 5. `surge --project ./dist --domain quantcamp.surge.sh` (*)
 
-(*) You'll need to have surge installed and logged in, and to be added as a collaborator.
+(*) You'll need to have surge installed and logged in, and to be added as a collaborator. For more information, check out the [Surge Getting Started Guide](https://surge.sh/help/getting-started-with-surge).

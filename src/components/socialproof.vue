@@ -27,7 +27,7 @@
 
         <!-- Blog Post Section 2 -->
         <div class="mb-8 bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-          <h3 class="text-2xl font-semibold mb-6">My Experience at the Manifest Trading Bootcamp | <a href="https://ari-goldman.com/blog/manifest-trading-bootcamp" class="text-blue-600 hover:text-blue-800 hover:underline" target="_blank" rel="noopener noreferrer">ari-goldman.com</a></h3>
+          <h3 class="text-2xl font-semibold mb-6">My Experience at the Manifest Trading Bootcamp | <a href="https://arizerner.com/posts/manifesting-a-trading-career/" class="text-blue-600 hover:text-blue-800 hover:underline" target="_blank" rel="noopener noreferrer">arizerner.com</a></h3>
           <div class="space-y-6">
             <blockquote class="border-l-4 border-blue-500 pl-4 italic text-gray-700 bg-blue-50 p-4 rounded-r-lg">
               "The bootcamp was a two-day intensive program designed to teach the fundamentals of quantitative trading and provide a glimpse into the experience of being a professional trader. Using a play currency, we went through various hands-on exercises to solidify concepts taught in energetically-delivered lectures."
