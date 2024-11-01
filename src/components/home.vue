@@ -70,7 +70,7 @@ const features = [
     icon: LineChart
   }
 ]
-const registerUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG-rmMIe0CmktmMVCyF1stNLcyX09WpcA/viewform"
+const registerUrl = "https://forms.gle/Wc7c2AVbL88qs8k76"
 </script>
 
 <style scoped>

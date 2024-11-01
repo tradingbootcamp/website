@@ -74,5 +74,5 @@
   import { Menu, X } from 'lucide-vue-next'
   
   const isMenuOpen = ref(false)
-  const registerUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG-rmMIe0CmktmMVCyF1stNLcyX09WpcA/viewform"
+  const registerUrl = "https://forms.gle/Wc7c2AVbL88qs8k76"
   </script>
