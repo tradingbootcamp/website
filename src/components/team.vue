@@ -19,24 +19,29 @@
 import Layout from './Layout.vue'
 import TeamMember from './TeamMember.vue'
 
+// Import images directly
+import rickiImage from '../assets/ricki.jpeg'
+import yoavImage from '../assets/yoav_headshot.jpg'
+import rossImage from '../assets/rossry_4.jpg'
+
 const teamMembers = [
   {
     id: 1,
     name: 'Ricki Heicklen',
     bio: 'Ricki runs this bootcamp, where she gets to fulfill her lifelong dream of yelling at people for their trade mistakes. In the past, she\'s worked in quant trading, electoral forecasting, teaching, writing, software development, data science, and briefly, construction. She likes to plan weird events.',
-    image: '/src/assets/ricki.jpeg'
+    image: rickiImage
   },
   {
     id: 2,
     name: 'Yoav Tzfati',
     bio: 'Yoav is a coding nerd that stumbled onto the trading bootcamp while making his first steps in AI Safety. He couldn\'t help himself from rewriting the mock trading infrastructure in Rust, and here we are.',
-    image: '/src/assets/yoav_headshot.jpg'
+    image: yoavImage
   },
   {
     id: 3,
     name: 'Ross Rheingans-Yoo',
     bio: 'Ross left his job at a well-regarded trading firm in 2022 to work at a new philanthropic foundation funded by crypto money, where he learned that the worst part about not working in trading is not getting to teach early-career traders. (It turns out that the worst part of your philanthropic foundation shutting down because the crypto money collapsed among allegations of fraud is that you still don\'t get to teach early-career traders.) Fortunately, the free market seems to have devised a solution to that problem.',
-    image: '/src/assets/rossry_4.jpg'
+    image: rossImage
   }
 ]
 </script>
