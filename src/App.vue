@@ -1,7 +1,8 @@
+<!-- App.vue -->
 <template>
-  <Website />
+  <router-view></router-view>
 </template>
 
-<script setup lang="ts">
-import Website from './components/Website.vue'
+<script setup>
+// No additional setup needed for basic router functionality
 </script>
