@@ -15,6 +15,7 @@
               <router-link to="/schedule" class="text-gray-600 hover:text-gray-900">Schedule</router-link>
               <router-link to="/team" class="text-gray-600 hover:text-gray-900">Team</router-link>
               <router-link to="/faq" class="text-gray-600 hover:text-gray-900">FAQ</router-link>
+              <router-link to="/socialproof" class="text-gray-600 hover:text-gray-900">Social Proof</router-link>
               <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                 Register
               </button>
@@ -39,6 +40,7 @@
             <router-link to="/schedule" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Schedule</router-link>
             <router-link to="/team" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Team</router-link>
             <router-link to="/faq" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">FAQ</router-link>
+            <router-link to="/socialproof" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Social Proof</router-link>
             <button class="block w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
               Register
             </button>
