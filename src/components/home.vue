@@ -13,8 +13,11 @@
           <br />
           The philosophy of this bootcamp is that the best way to learn to trade is by trading. We’ll use a fake economy and exchange, run through many sessions of trading games designed to teach progressively more complex concepts, and auction off prizes at the end using our internal currency.
         </p>
-        <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 flex items-center">
-          Get Started
+        <p class="text-lg text-gray-600 mb-8">
+          The course is taught by <a href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a ex-quant of Jane Street.
+        </p>
+        <button class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors duration-200 flex items-center">
+          Register
           <ChevronRight class="ml-2" :size="20" />
         </button>
       </div>
@@ -37,9 +40,10 @@
       <div class="max-w-6xl mx-auto px-4 py-12">
         <h2 class="text-2xl font-bold mb-6">Venue</h2>
         <p class="text-lg text-gray-600 mb-4">
-          The Trading Bootcamp will be held at the Downtown Conference Center, located at 123 Main St, Cityville. 
-          Join us in a state-of-the-art facility designed for interactive learning and networking.
+          The bootcamp will be held at <a href="https://www.lighthaven.space/" class="text-blue-600 hover:text-blue-800">Lighthaven</a>, a campus equipped with everything
+          we'll need for learning and trading.
         </p>
+      <img src="@/assets/lighthaven.jpg" alt="Lighthaven Venue" class="w-full h-auto rounded-lg shadow-md" />
       </div>
     </div>
   </Layout>

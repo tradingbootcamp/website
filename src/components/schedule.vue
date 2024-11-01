@@ -5,6 +5,13 @@
             <p class="text-lg text-gray-600 mb-8">
                 The next bootcamp runs from 6th to 11th of November, you can view the schedule <a href="https://docs.google.com/spreadsheets/d/1VenNKSoZSAvVWJMee17tZ-vuCBqIUwHVPfDjI46iSxU/edit?gid=343028241#gid=343028241" class="text-blue-600 hover:text-blue-800">here</a>.
             </p>
+            <!-- Added embedded Google Sheet -->
+            <div class="w-full aspect-[16/9]">
+                <iframe 
+                    src="https://docs.google.com/spreadsheets/d/1VenNKSoZSAvVWJMee17tZ-vuCBqIUwHVPfDjI46iSxU/edit?gid=343028241#gid=343028241"
+                    class="w-full h-full border-0"
+                ></iframe>
+            </div>
         </div>
     </Layout>
 </template>
