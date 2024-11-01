@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="team-page">
-      <h1 class="team-title">Our Team</h1>
+      <h1 class="team-title">Meet Our Team</h1>
       <div class="team-grid">
         <TeamMember
           v-for="member in teamMembers"
@@ -53,7 +53,10 @@ const teamMembers = [
 
 .team-title {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a202c;
 }
 
 .team-grid {
