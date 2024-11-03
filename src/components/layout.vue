@@ -6,7 +6,7 @@
         <div class="max-w-6xl mx-auto px-4">
           <div class="flex justify-between h-16">
             <div class="flex items-center">
-              <span class="text-xl font-bold text-gray-800">Trading Bootcamp</span>
+              <router-link to="/" class="text-xl font-bold text-gray-800 hover:text-gray-900">Quantitative Trading Bootcamp</router-link>
             </div>
             
             <!-- Desktop Menu -->
@@ -16,7 +16,7 @@
               <router-link to="/team" class="text-gray-600 hover:text-gray-900">Team</router-link>
               <router-link to="/faq" class="text-gray-600 hover:text-gray-900">FAQ</router-link>
               <router-link to="/socialproof" class="text-gray-600 hover:text-gray-900">Social Proof</router-link>
-              <a :href="registerUrl" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+              <a target="_blank" :href="registerUrl" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                 Register
               </a>
             </div>

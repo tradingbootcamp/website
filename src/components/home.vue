@@ -15,9 +15,9 @@
           The philosophy of this bootcamp is that the best way to learn to trade is by trading. We'll use a fake economy and exchange, run through many sessions of trading games designed to teach progressively more complex concepts, and auction off prizes at the end using our internal currency.
         </p>
         <p class="hero-text">
-          The course is taught by <a href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a ex-quant of Jane Street.
+          The course is taught by <a target="_blank" href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a former quantitative trader at Jane Street.
         </p>
-        <a :href="registerUrl" class="register-button">
+        <a target="_blank" :href="registerUrl" class="register-button">
           Register Now
           <ChevronRight class="ml-2" :size="24" />
         </a>
