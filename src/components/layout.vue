@@ -6,8 +6,12 @@
         <div class="max-w-6xl mx-auto px-4">
           <div class="flex justify-between h-16">
             <div class="flex items-center">
-              <router-link to="/" class="text-xl font-bold text-gray-800 hover:text-gray-900">Quantitative Trading Bootcamp</router-link>
+              <router-link to="/" class="hover:opacity-80 text-xl font-bold text-gray-800 hover:text-gray-900 flex items-center gap-1">
+                <img src="../assets/trading_bootcamp_logo.png" alt="Quantitative Trading Bootcamp Logo" class="h-14" />
+                Quantitative Trading Bootcamp
+              </router-link>
             </div>
+            
             
             <!-- Desktop Menu -->
             <div class="hidden md:flex items-center space-x-8">

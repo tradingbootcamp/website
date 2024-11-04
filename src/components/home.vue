@@ -15,7 +15,7 @@
           The philosophy of this bootcamp is that the best way to learn to trade is by trading. We'll use a fake economy and exchange, run through many sessions of trading games designed to teach progressively more complex concepts, and auction off prizes at the end using our internal currency.
         </p>
         <p class="hero-text">
-          The course is taught by <a target="_blank" href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a former quantitative trader at Jane Street.
+          The course is taught by <a target="_blank" href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a former quantitative trader at Jane Street, along with a team of 2-3 others.
         </p>
         <div class="flex flex-col items-start gap-4">
           <a target="_blank" :href="registerUrl" class="register-button">
@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <div class="content-section">
+    <!-- <div class="content-section">
       <h2 class="text-3xl font-bold mb-8 text-center">Things You'll Learn</h2>
       <div class="features-grid">
         <FeatureCard
@@ -47,6 +47,13 @@
           :key="feature.title"
           v-bind="feature"
         />
+      </div>
+    </div> -->
+
+    <div class="bg-gray-50 py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Random Testimonials</h2>
+        <RandomTestimonial />
       </div>
     </div>
 
@@ -56,7 +63,9 @@
         <p class="venue-text">
           The bootcamp will be held at <a href="https://www.lighthaven.space/" class="text-blue-600 hover:text-blue-800">Lighthaven</a>, a campus in Berkeley, CA. To book rooms onsite, click <a target="_blank" href="https://www.havenbookings.space/events/eternal-september" class="text-blue-600 hover:text-blue-800">here</a>.
         </p>
-        <img src="@/assets/lighthaven.jpg" alt="Lighthaven Venue" class="venue-image" />
+        <a target="_blank" href="https://www.havenbookings.space/events/eternal-september">
+          <img src="@/assets/lighthaven.jpg" alt="Lighthaven Venue" class="venue-image" />
+        </a>
       </div>
     </div>
   </Layout>
@@ -67,6 +76,7 @@ import { ChevronRight, BookOpen, TrendingUp, LineChart } from 'lucide-vue-next'
 import Layout from './Layout.vue'
 import FeatureCard from './FeatureCard.vue'
 import rickiRossImage from '../assets/ricki_ross_bootcamp.jpg'
+import RandomTestimonial from './RandomTestimonial.vue'
 
 const features = [
   {
@@ -148,7 +158,7 @@ const interestUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG
 }
 
 .venue-image {
-  @apply w-full h-auto rounded-lg shadow-md;
+  @apply w-full h-auto rounded-lg;
 }
 
 .market-symbol {
