@@ -10,6 +10,7 @@
     "deploy": "pnpm run build && surge --project ./dist --domain quantcamp.surge.sh"
   },
   "dependencies": {
+    "lucide-vue-next": "^0.454.0",
     "vue": "^3.5.12",
     "vue-router": "4"
   },
