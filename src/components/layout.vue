@@ -17,7 +17,7 @@
               <router-link to="/faq" class="text-gray-600 hover:text-gray-900">FAQ</router-link>
               <router-link to="/socialproof" class="text-gray-600 hover:text-gray-900">Social Proof</router-link>
               <a target="_blank" :href="registerUrl" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                Register
+                Register: Nov 6-10
               </a>
             </div>
   

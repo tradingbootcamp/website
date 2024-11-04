@@ -17,10 +17,16 @@
         <p class="hero-text">
           The course is taught by <a target="_blank" href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a former quantitative trader at Jane Street.
         </p>
-        <a target="_blank" :href="registerUrl" class="register-button">
-          Register Now
-          <ChevronRight class="ml-2" :size="24" />
-        </a>
+        <div class="flex flex-col items-start gap-4">
+          <a target="_blank" :href="registerUrl" class="register-button">
+            Register: Nov 6-10
+            <ChevronRight class="ml-2" :size="24" />
+          </a>
+          <a target="_blank" :href="interestUrl" class="interest-button">
+            Interest Form
+            <ChevronRight class="ml-2" :size="24" />
+          </a>
+        </div>
       </div>
     </div>
 
@@ -71,6 +77,7 @@ const features = [
   }
 ]
 const registerUrl = "https://forms.gle/Wc7c2AVbL88qs8k76"
+const interestUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG-rmMIe0CmktmMVCyF1stNLcyX09WpcA/viewform"
 </script>
 
 <style scoped>
@@ -101,6 +108,10 @@ const registerUrl = "https://forms.gle/Wc7c2AVbL88qs8k76"
 
 .register-button {
   @apply inline-flex bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 items-center shadow-lg hover:shadow-xl transform hover:-translate-y-1;
+}
+
+.interest-button {
+  @apply inline-flex bg-gradient-to-r from-blue-400/80 to-blue-400/80 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 items-center shadow-lg hover:shadow-xl transform hover:-translate-y-1;
 }
 
 .content-section {
