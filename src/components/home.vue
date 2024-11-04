@@ -52,7 +52,7 @@
 
     <div class="bg-gray-50 py-16">
       <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8 text-center">Random Testimonials</h2>
+        <h2 class="text-3xl font-bold mb-8 text-center">Random Testimonial</h2>
         <RandomTestimonial />
       </div>
     </div>

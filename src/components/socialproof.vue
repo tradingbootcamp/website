@@ -16,12 +16,12 @@
         <div class="mb-6 bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
           <h3 class="text-2xl font-semibold mb-6">COMPLEX SYSTEMS with Patrick McKenzie | <a target="_blank" href="https://www.complexsystemspodcast.com/episodes/teaching-trading-ricki-heicklen/" class="text-blue-600 hover:text-blue-800 hover:underline" rel="noopener noreferrer">complexsystemspodcast.com</a></h3>
           <div class="space-y-6">
-            <div class="flex justify-between mb-8 gap-4">
+            <div class="flex justify-between mb-4 gap-4">
             <div class="w-2/5">
             <p>In which Ricki and Patrick McKenzie talk about trading pedagogy, game design, and this bootcamp.</p>
             <br />
-            <p class="italic text-gray-700">LISTENERS ARE SAYING: "Hey did you speed up the speech in the podcast? Currently listening on Spotify and it sounds a bit… quick?"</p>
-              <a href="https://x.com/FriedKielbasa/status/1811526240500887888" class="italic text-gray-700"> —@FriedKielbasa</a>
+            <p class="italic text-gray-500">LISTENERS ARE SAYING: "Hey did you speed up the speech in the podcast? Currently listening on Spotify and it sounds a bit… quick?"</p>
+              <a href="https://x.com/FriedKielbasa/status/1811526240500887888" class="italic text-gray-500"> —@FriedKielbasa</a>
             </div>
             <iframe width="580" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/64949168"></iframe>
             </div>
