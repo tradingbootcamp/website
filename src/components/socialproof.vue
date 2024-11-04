@@ -1,10 +1,37 @@
 <template>
   <Layout>
-    <div class="max-w-6xl mx-auto px-4 py-12">
-      <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">Highlights from Various Blogs</h2> 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="max-w-5xl mx-auto px-4 py-12">
+      <h2 class="text-4xl font-bold text-gray-900 mb-16 text-center">Highlights from the Internet</h2>       
+
+      <!-- <div class="flex justify-between mb-8 gap-4">
+        <div class="w-2/5">
+          <h3 class="text-2xl font-bold text-gray-900 mb-8 text-left">Podcast</h3>
+          <p class="text-gray-500 mb-8 text-left"><a target="_blank" href="https://www.complexsystemspodcast.com/episodes/teaching-trading-ricki-heicklen/" class="text-blue-600 hover:text-blue-800 hover:underline">COMPLEX SYSTEMS</a>: In which Ricki and Patrick McKenzie talk about trading pedagogy, game design, and this bootcamp. </p>
+        </div>
+        <iframe width="580" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/64949168"></iframe>
+      </div> -->
+
+      <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
+
+        <div class="mb-6 bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold mb-6">COMPLEX SYSTEMS with Patrick McKenzie | <a target="_blank" href="https://www.complexsystemspodcast.com/episodes/teaching-trading-ricki-heicklen/" class="text-blue-600 hover:text-blue-800 hover:underline" rel="noopener noreferrer">complexsystemspodcast.com</a></h3>
+          <div class="space-y-6">
+            <div class="flex justify-between mb-8 gap-4">
+            <div class="w-2/5">
+            <p>In which Ricki and Patrick McKenzie talk about trading pedagogy, game design, and this bootcamp.</p>
+            <br />
+            <p class="italic text-gray-700">LISTENERS ARE SAYING: "Hey did you speed up the speech in the podcast? Currently listening on Spotify and it sounds a bit… quick?"</p>
+              <a href="https://x.com/FriedKielbasa/status/1811526240500887888" class="italic text-gray-700"> —@FriedKielbasa</a>
+            </div>
+            <iframe width="580" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/64949168"></iframe>
+            </div>
+          </div>
+        </div>
+
+
+
         <!-- Blog Post Section 1 -->
-        <div class="mb-8 bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div class="mb-6 bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
           <h3 class="text-2xl font-semibold mb-6">A Jane Street Alum Teaches Trading | <a href="https://moontowermeta.com/a-jane-street-alum-teaches-trading/" class="text-blue-600 hover:text-blue-800 hover:underline" target="_blank" rel="noopener noreferrer">moontowermeta.com</a></h3>
           <div class="space-y-6">
             <blockquote class="border-l-4 border-blue-500 pl-4 italic text-gray-700 bg-blue-50 p-4 rounded-r-lg">
@@ -26,7 +53,7 @@
         </div>
 
         <!-- Blog Post Section 2 -->
-        <div class="mb-8 bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div class="mb-6 bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
           <h3 class="text-2xl font-semibold mb-6">My Experience at the Manifest Trading Bootcamp | <a href="https://arizerner.com/posts/manifesting-a-trading-career/" class="text-blue-600 hover:text-blue-800 hover:underline" target="_blank" rel="noopener noreferrer">arizerner.com</a></h3>
           <div class="space-y-6">
             <blockquote class="border-l-4 border-blue-500 pl-4 italic text-gray-700 bg-blue-50 p-4 rounded-r-lg">
