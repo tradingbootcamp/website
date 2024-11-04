@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import Layout from './Layout.vue'
+import layout from './Layout.vue'
 import TeamMember from './TeamMember.vue'
 
 // Import images directly
