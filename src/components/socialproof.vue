@@ -18,7 +18,7 @@
           <div class="space-y-6">
             <div class="flex justify-between mb-4 gap-4">
             <div class="w-2/5">
-            <p>In which Ricki and Patrick McKenzie talk about trading pedagogy, game design, and this bootcamp.</p>
+            <p>In which Ricki and Patrick talk about trading pedagogy, game design, and this bootcamp.</p>
             <br />
             <p class="italic text-gray-500">LISTENERS ARE SAYING: "Hey did you speed up the speech in the podcast? Currently listening on Spotify and it sounds a bit… quick?"</p>
               <a href="https://x.com/FriedKielbasa/status/1811526240500887888" class="italic text-gray-500"> —@FriedKielbasa</a>
