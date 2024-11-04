@@ -2,11 +2,11 @@
 <template>
   <Layout>
     <div class="hero-section">
-
-
       <div class="hero-container">
-        <h1 class="hero-title">
-          Trading Bootcamp
+        <div class="hero-grid">
+          <div class="hero-content">
+          <h1 class="hero-title">
+            Trading Bootcamp
         </h1>
         <p class="hero-text">
           Trading Bootcamp teaches the fundamentals of quantitative trading: markets, order books, auctions, risk and sizing, adverse selection, arbitrage, and how quant trading firms make money.
@@ -28,6 +28,15 @@
           </a>
         </div>
       </div>
+        <div class="image-container">
+          <img 
+            :src="rickiRossImage" 
+            alt="Ricki teaching at Trading Bootcamp" 
+            class="bootcamp-image"
+          />
+        </div>
+        </div>
+      </div>
     </div>
 
     <div class="content-section">
@@ -45,8 +54,7 @@
       <div class="venue-container">
         <h2 class="text-2xl font-bold mb-6">Venue</h2>
         <p class="venue-text">
-          The bootcamp will be held at <a href="https://www.lighthaven.space/" class="text-blue-600 hover:text-blue-800">Lighthaven</a>, a campus equipped with everything
-          we'll need for learning and trading.
+          The bootcamp will be held at <a href="https://www.lighthaven.space/" class="text-blue-600 hover:text-blue-800">Lighthaven</a>, a campus in Berkeley, CA. To book rooms onsite, click <a target="_blank" href="https://www.havenbookings.space/events/eternal-september" class="text-blue-600 hover:text-blue-800">here</a>.
         </p>
         <img src="@/assets/lighthaven.jpg" alt="Lighthaven Venue" class="venue-image" />
       </div>
@@ -58,6 +66,7 @@
 import { ChevronRight, BookOpen, TrendingUp, LineChart } from 'lucide-vue-next'
 import Layout from './Layout.vue'
 import FeatureCard from './FeatureCard.vue'
+import rickiRossImage from '../assets/ricki_ross_bootcamp.jpg'
 
 const features = [
   {
@@ -96,6 +105,14 @@ const interestUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG
 
 .hero-container {
   @apply max-w-6xl mx-auto relative z-10;
+}
+
+.hero-grid {
+  @apply grid md:grid-cols-2 gap-8 items-center;
+}
+
+.hero-content {
+  @apply flex flex-col;
 }
 
 .hero-title {
@@ -146,5 +163,13 @@ const interestUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG
 .random-position {
   left: v-bind('Math.random() * 100 + "%"');
   top: v-bind('Math.random() * 100 + "%"');
+}
+
+.image-container {
+  @apply w-full;
+}
+
+.bootcamp-image {
+  @apply w-full h-auto rounded-lg shadow-lg;
 }
 </style>
