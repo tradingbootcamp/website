@@ -55,7 +55,7 @@ const teamMembers = [
   {
     id: 5,
     name: 'Saul Munn',
-    bio: 'Saul, like Nicholas, is so close to getting his bio in.',
+    bio: 'Saul, like Nicholas, is so close to getting his bio in. So close.',
     image: saulImage
   }
 ]
