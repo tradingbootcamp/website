@@ -57,17 +57,7 @@
       </div>
     </div>
 
-    <div class="bg-white">
-      <div class="venue-container">
-        <h2 class="text-2xl font-bold mb-6">Venue</h2>
-        <p class="venue-text">
-          The bootcamp will be held at <a href="https://www.lighthaven.space/" class="text-blue-600 hover:text-blue-800">Lighthaven</a>, a campus in Berkeley, CA. To book rooms onsite, click <a target="_blank" href="https://www.havenbookings.space/events/eternal-september" class="text-blue-600 hover:text-blue-800">here</a>.
-        </p>
-        <a target="_blank" href="https://www.havenbookings.space/events/eternal-september">
-          <img src="@/assets/lighthaven.jpg" alt="Lighthaven Venue" class="venue-image" />
-        </a>
-      </div>
-    </div>
+
   </Layout>
 </template>
 
