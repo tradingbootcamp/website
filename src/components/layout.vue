@@ -64,7 +64,7 @@
             <div>
               <h4 class="text-lg font-semibold mb-4 text-center">Contact</h4>
               <ul class="space-y-2 text-gray-400 text-center">
-                <li>ricki dot heicklen at gmail</li>
+                <li>hello at trading dot camp</li>
               </ul>
             </div>
           </div>

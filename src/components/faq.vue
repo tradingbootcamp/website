@@ -13,7 +13,7 @@
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Is housing provided?</strong>
-                    <p class="text-gray-700">It’s not included in the cost, but you can <a target="_blank" href="https://www.havenbookings.space/events/eternal-september" class="text-blue-600 hover:text-blue-800 underline">book rooms at Lighthaven here</a> if desired. People might also try to coordinate housing via the Discord server.</p>
+                    <p class="text-gray-700">It’s not included in the cost, but we'll give you good options on-site at the venue or nearby (depending on the workshop you attend). People might also try to coordinate housing via the <a target="_blank" href="https://bit.ly/qtb-discord" class="text-blue-600 hover:text-blue-800">Discord server</a>.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">What are the demographics of attendees?</strong>
