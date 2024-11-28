@@ -76,10 +76,21 @@ const teamMembers = [
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
   justify-items: center;
   max-width: 1400px;
   margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .team-page {
+    padding: 1rem;
+  }
 }
 </style>
