@@ -10,6 +10,6 @@ export const testimonials = [
   { quote: "Ricki is a fun, effective instructor. Talks at a million miles an hour, takes all questions and new constraints in stride and does something reasonable in response… the Electronic Trading Competition was glorious, relentless chaos.", author: "William" },
   // { quote: "Ricki has a lot of good qualities and none of them are subtlety.", author: "Avital" },
   { quote: "When you're learning all the ways you can be abused in markets, you want to have a teacher as fun, engaging, and smart as Ricki.", author: "Rai" },
-  { quote: "felt too chaotic", author: "Anonymous" },
-  { quote: "Ricki is the best teacher I have ever had. I would immediately sign up to anything Ricki is teaching, even if it was teaching Paint Drying Bootcamp", author: "Theo" }
+  { quote: "Ricki is the best teacher I have ever had. I would immediately sign up to anything Ricki is teaching, even if it was teaching Paint Drying Bootcamp", author: "Theo" },
+  { quote: "felt too chaotic", author: "Anonymous" }
 ]
