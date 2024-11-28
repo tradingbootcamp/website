@@ -24,6 +24,8 @@ import rickiImage from '../assets/ricki.jpeg'
 import yoavImage from '../assets/yoav_headshot.jpg'
 import rossImage from '../assets/rossry_4.jpg'
 import nicholasImage from '../assets/nicholas_headshot.jpeg'
+import saulImage from '../assets/saul_munn.png'
+
 
 const teamMembers = [
   {
@@ -49,6 +51,12 @@ const teamMembers = [
     name: 'Nicholas Charette',
     bio: 'Nicholas is going to get me his bio any minute now.',
     image: nicholasImage
+  },
+  {
+    id: 5,
+    name: 'Saul Munn',
+    bio: 'Saul, like Nicholas, is so close to getting his bio in.',
+    image: saulImage
   }
 ]
 </script>
