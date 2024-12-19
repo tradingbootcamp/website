@@ -6,10 +6,10 @@
         <div class="hero-grid">
           <div class="hero-content">
           <h1 class="hero-title">
-            Trading Bootcamp
+            Quantitative Trading Bootcamp
         </h1>
         <p class="hero-text">
-          Trading Bootcamp teaches the fundamentals of quantitative trading: markets, order books, auctions, risk and sizing, adverse selection, arbitrage, and how quant trading firms make money.
+          Quantitative Trading Bootcamp teaches the fundamentals of quantitative trading: markets, order books, auctions, risk and sizing, adverse selection, arbitrage, and how quant trading firms make money.
           <br />
           <br />
           The philosophy of this bootcamp is that the best way to learn to trade is by trading. We'll use a fake economy and exchange, run through many sessions of trading games designed to teach progressively more complex concepts, and auction off prizes at the end using our internal currency.
@@ -17,15 +17,18 @@
         <p class="hero-text">
           The course is taught by <a target="_blank" href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a former quantitative trader at Jane Street, along with a team of 2-3 others.
         </p>
+        <p class="hero-text">
+          The next public bootcamps will be in <b>NYC on Jan 22-26</b>, and in <b>SF/Bay Area on Feb 13-17</b>. Fill out the interest form to be emailed when tickets go on sale!
+        </p>
         <div class="flex flex-col items-start gap-4">
-          <a target="_blank" :href="registerUrl" class="register-button">
-            Register: Nov 6-10
-            <ChevronRight class="ml-2" :size="24" />
-          </a>
-          <a target="_blank" :href="interestUrl" class="interest-button">
+          <a target="_blank" :href="interestUrl" class="register-button">
             Interest Form
             <ChevronRight class="ml-2" :size="24" />
           </a>
+          <!-- <a target="_blank" :href="interestUrl" class="interest-button">
+            Interest Form
+            <ChevronRight class="ml-2" :size="24" />
+          </a> -->
         </div>
       </div>
         <div class="image-container">
@@ -57,17 +60,7 @@
       </div>
     </div>
 
-    <div class="bg-white">
-      <div class="venue-container">
-        <h2 class="text-2xl font-bold mb-6">Venue</h2>
-        <p class="venue-text">
-          The bootcamp will be held at <a href="https://www.lighthaven.space/" class="text-blue-600 hover:text-blue-800">Lighthaven</a>, a campus in Berkeley, CA. To book rooms onsite, click <a target="_blank" href="https://www.havenbookings.space/events/eternal-september" class="text-blue-600 hover:text-blue-800">here</a>.
-        </p>
-        <a target="_blank" href="https://www.havenbookings.space/events/eternal-september">
-          <img src="@/assets/lighthaven.jpg" alt="Lighthaven Venue" class="venue-image" />
-        </a>
-      </div>
-    </div>
+
   </Layout>
 </template>
 
@@ -96,7 +89,7 @@ const features = [
   }
 ]
 const registerUrl = "https://forms.gle/Wc7c2AVbL88qs8k76"
-const interestUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG-rmMIe0CmktmMVCyF1stNLcyX09WpcA/viewform"
+const interestUrl = "https://bit.ly/qtb-interest"
 </script>
 
 <style scoped>
@@ -126,7 +119,7 @@ const interestUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJMLumy0HFNdddjqG
 }
 
 .hero-title {
-  @apply text-4xl sm:text-6xl font-bold text-gray-900 mb-8 pb-2 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent;
+  @apply text-2xl sm:text-4xl font-bold text-gray-900 mb-8 pb-2 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent;
 }
 
 .hero-text {

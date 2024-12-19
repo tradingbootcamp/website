@@ -24,6 +24,8 @@ import rickiImage from '../assets/ricki.jpeg'
 import yoavImage from '../assets/yoav_headshot.jpg'
 import rossImage from '../assets/rossry_4.jpg'
 import nicholasImage from '../assets/nicholas_headshot.jpeg'
+import saulImage from '../assets/saul_munn.png'
+
 
 const teamMembers = [
   {
@@ -49,6 +51,12 @@ const teamMembers = [
     name: 'Nicholas Charette',
     bio: 'Nicholas is going to get me his bio any minute now.',
     image: nicholasImage
+  },
+  {
+    id: 5,
+    name: 'Saul Munn',
+    bio: 'Saul, like Nicholas, is so close to getting his bio in. So close.',
+    image: saulImage
   }
 ]
 </script>
@@ -68,10 +76,21 @@ const teamMembers = [
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
   justify-items: center;
   max-width: 1400px;
   margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .team-page {
+    padding: 1rem;
+  }
 }
 </style>

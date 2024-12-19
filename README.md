@@ -12,7 +12,4 @@ This is the website for Trading Bootcamp by Ricki Heicklen.
 
 ### Deploying
 
-4. `pnpm build`
-5. `surge --project ./dist --domain quantcamp.surge.sh` (*)
-
-(*) You'll need to have surge installed and logged in, and to be added as a collaborator. For more information, check out the [Surge Getting Started Guide](https://surge.sh/help/getting-started-with-surge).
+As of 241128-00:24:34 the app is autodeployed by Jonathan Ng's personal netfliy, just push to main and it should autodeply 
