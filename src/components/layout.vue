@@ -20,8 +20,8 @@
               <router-link to="/team" class="text-gray-600 hover:text-gray-900">Team</router-link>
               <router-link to="/faq" class="text-gray-600 hover:text-gray-900">FAQ</router-link>
               <router-link to="/socialproof" class="text-gray-600 hover:text-gray-900">Social Proof</router-link>
-              <a target="_blank" :href="interestUrl" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                Interest Form
+              <a target="_blank" :href="registerUrl" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                Register Now
               </a>
             </div>
   
@@ -45,8 +45,8 @@
             <router-link to="/team" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Team</router-link>
             <router-link to="/faq" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">FAQ</router-link>
             <router-link to="/socialproof" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Social Proof</router-link>
-            <a :href="interestUrl" class="block w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-              Interest Form
+            <a :href="registerUrl" class="block w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+              Register Now
             </a>
           </div>
         </div>
@@ -78,6 +78,7 @@
   import { Menu, X } from 'lucide-vue-next'
   import { links } from '../data/links.js'
   const interestUrl = links.interest
+  const registerUrl = links.register
 
   
   const isMenuOpen = ref(false)

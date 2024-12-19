@@ -21,7 +21,10 @@
           The next public bootcamps will be in <b>NYC on Jan 22-26</b>, and in <b>SF/Bay Area on Feb 13-17</b>. Fill out the interest form to be emailed when tickets go on sale!
         </p>
         <div class="flex flex-col items-start gap-4">
-          <a target="_blank" :href="interestUrl" class="register-button">
+          <a target="_blank" :href="registerUrl" class="register-button">
+            Register now: Jan 22-26 <ChevronRight class="ml-2" :size="24" />
+          </a>
+          <a target="_blank" :href="interestUrl" class="interest-button">
             Interest Form
             <ChevronRight class="ml-2" :size="24" />
           </a>
@@ -70,6 +73,10 @@ import Layout from './layout.vue'
 import FeatureCard from './FeatureCard.vue'
 import rickiRossImage from '../assets/ricki_ross_bootcamp.jpg'
 import RandomTestimonial from './RandomTestimonial.vue'
+import { links } from '../data/links.js'
+
+const registerUrl = links.register
+const interestUrl = links.interest
 
 const features = [
   {
@@ -88,8 +95,7 @@ const features = [
     icon: LineChart
   }
 ]
-const registerUrl = "https://forms.gle/Wc7c2AVbL88qs8k76"
-const interestUrl = "https://bit.ly/qtb-interest"
+
 </script>
 
 <style scoped>
