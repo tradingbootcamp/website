@@ -73,7 +73,7 @@
 
 <script setup>
 import { ChevronRight, BookOpen, TrendingUp, LineChart } from 'lucide-vue-next'
-import Layout from './Layout.vue'
+import Layout from './layout.vue'
 import FeatureCard from './FeatureCard.vue'
 import rickiRossImage from '../assets/ricki_ross_bootcamp.jpg'
 import RandomTestimonial from './RandomTestimonial.vue'
