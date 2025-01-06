@@ -27,6 +27,10 @@
                     <strong class="text-lg font-semibold">Is there any certification?</strong>
                     <p class="text-gray-700">Nope. For what it’s worth, I think most firms view those things as bullshit anyway, and the ones that do care about it aren’t that good. The quality firms basically only care about raw intelligence and ability to solve problems on the fly.</p>
                 </li>
+                <li class="bg-white p-6 rounded-lg shadow-md">
+                    <strong class="text-lg font-semibold">Do you run private bootcamps? Can my company/firm/org sponsor one of your public bootcamps?</strong>
+                    <p class="text-gray-700">Yes! Check out more information on corporate partnerships <a target="_blank" class="text-blue-600 hover:text-blue-800" href="https://bit.ly/qtb-corporate-partnerships">here</a>.</p>
+                </li>
             </ul>
         </div>
     </Layout>
