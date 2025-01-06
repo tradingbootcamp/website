@@ -24,7 +24,7 @@
           <a target="_blank" :href="registerUrl" class="register-button">
             Register now: Jan 22-26 (NYC) <ChevronRight class="ml-2" :size="24" />
           </a>
-          <a target="_blank" :href="registerFebUrl" class="register-button">
+          <a target="_blank" :href="registerFeb" class="register-button">
             Register now: Feb 13-17 (Bay Area) <ChevronRight class="ml-2" :size="24" />
           </a>
           <a target="_blank" :href="interestUrl" class="interest-button">
@@ -79,6 +79,7 @@ import RandomTestimonial from './RandomTestimonial.vue'
 import { links } from '../data/links.js'
 
 const registerUrl = links.register
+const registerFeb = links.registerFeb
 const interestUrl = links.interest
 
 const features = [
