@@ -20,6 +20,10 @@
                     <p class="text-gray-700">A range: most are between jobs, a handful with experience in software engineering, some with experience in finance but not in trading specifically, some currently in college or recent graduates.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
+                    <strong class="text-lg font-semibold">Will this help me get a job?</strong>
+                    <p class="text-gray-700">Probably not. Our median value-add is giving participants a fluent intuition for market dynamics, not getting them a job. You'll probably meet some traders/finance folks, and we might have a few sponsors looking to hire, but we definitely do not optimize the camp around getting you hired. There's no certification, we're not prepping you for interviews, etc. The bootcamp could, however, be helpful for giving you a taste of what being a quant trader is like, so that you can make a more informed decision about whether it's a career you want to go into.</p>
+                </li>
+                <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Is there any certification?</strong>
                     <p class="text-gray-700">Nope. For what it’s worth, I think most firms view those things as bullshit anyway, and the ones that do care about it aren’t that good. The quality firms basically only care about raw intelligence and ability to solve problems on the fly.</p>
                 </li>
