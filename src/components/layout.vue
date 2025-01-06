@@ -79,6 +79,7 @@
   import { links } from '../data/links.js'
   const interestUrl = links.interest
   const registerUrl = links.register
+  const registerFebUrl = links.registerFeb
 
   
   const isMenuOpen = ref(false)

@@ -18,11 +18,14 @@
           The course is taught by <a target="_blank" href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a former quantitative trader at Jane Street, along with a team of 2-3 others.
         </p>
         <p class="hero-text">
-          The next public bootcamps will be in <b>NYC on Jan 22-26</b>, and in <b>SF/Bay Area on Feb 13-17</b>. Fill out the interest form to be emailed when tickets go on sale!
+          The next public bootcamps will be in <b>NYC on Jan 22-26</b>, and in <b>SF/Bay Area on Feb 13-17</b>.
         </p>
         <div class="flex flex-col items-start gap-4">
           <a target="_blank" :href="registerUrl" class="register-button">
-            Register now: Jan 22-26 <ChevronRight class="ml-2" :size="24" />
+            Register now: Jan 22-26 (NYC) <ChevronRight class="ml-2" :size="24" />
+          </a>
+          <a target="_blank" :href="registerFebUrl" class="register-button">
+            Register now: Feb 13-17 (Bay Area) <ChevronRight class="ml-2" :size="24" />
           </a>
           <a target="_blank" :href="interestUrl" class="interest-button">
             Interest Form
