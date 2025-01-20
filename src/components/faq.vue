@@ -5,7 +5,7 @@
             <ul class="space-y-6">
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">What level of coding knowledge/language do you need to know in order to benefit from the course?</strong>
-                    <p class="text-gray-700">Pretty minimal, the first two days involve zero coding and the third and fourth have more but we intentionally put you on pairs/teams that are balanced so that even if someone doesn’t have programming skills they can still contribute and learn. I think people with some programming knowledge will benefit a little bit more from the course but not very much.</p>
+                    <p class="text-gray-700">Having some programming experience is pretty important for getting value out of the second half of the bootcamp. The first two days involve zero coding and the third and fourth have more, but we intentionally put you on pairs/teams that are balanced so that even if someone doesn’t have as much programming skills they can still contribute and learn. Feel free to reach out (hello at trading dot camp) if you're unsure.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">What level of math background is required?</strong>
@@ -18,6 +18,10 @@
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">What are the demographics of attendees?</strong>
                     <p class="text-gray-700">A range: most are between jobs, a handful with experience in software engineering, some with experience in finance but not in trading specifically, some currently in college or recent graduates.</p>
+                </li>
+                <li class="bg-white p-6 rounded-lg shadow-md">
+                    <strong class="text-lg font-semibold">Can I volunteer in exchange for a discounted ticket?</strong>
+                    <p class="text-gray-700">We do occasionally price discriminate, but usually not for free. Depending on the camp, we might ask you to help out day-of, or recruit some number of full-paying participants, or providing a few hours of marketing consulting, or connecting us to a company that decides to <a target="_blank" href="https://bit.ly/qtb-corporate-partnerships" class="text-blue-600 hover:text-blue-800">sponsor us/have us run a private bootcamp</a>, etc.or some other thing that would be valuable to us.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Will this help me get a job?</strong>
