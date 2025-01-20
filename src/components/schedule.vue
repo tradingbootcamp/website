@@ -3,12 +3,12 @@
         <div class="max-w-6xl mx-auto px-4 py-12">
             <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">Sample Schedule</h1>
             <p class="text-lg text-gray-600 mb-8">
-                The most recent bootcamp ran over Veteran's Day. You can view a rough representation of what occurred below, or by clicking <a target="_blank" href="https://docs.google.com/spreadsheets/d/1VenNKSoZSAvVWJMee17tZ-vuCBqIUwHVPfDjI46iSxU/edit?gid=343028241#gid=343028241" class="text-blue-600 hover:text-blue-800">here</a>.
+                Here's our current best guess at the schedule for the <a target="_blank" href="https://bit.ly/qtb-january-2025" class="text-blue-600 hover:text-blue-800">January 22-26 NYC bootcamp</a>. Everything, as always, subject to changes at the last minute. You can also open the schedule <a target="_blank" :href="links.scheduleEmbed" class="text-blue-600 hover:text-blue-800">here</a>.
             </p>
             <!-- Added embedded Google Sheet -->
-            <div class="w-full h-[820px]">
+            <div class="w-full h-[840px]">
                 <iframe 
-                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUpeAUhWp4uMFUeHYo9LHVIYxHdAGj9BYVhITVC5KxlUG2Hi90dwnBaS9MH2aufIXf0rP6stYjbZtr/pubhtml?gid=343028241&widget=true&single=true&headers=false&chrome=false"
+                    :src="links.scheduleEmbed"
                     class="w-full h-full border-0"
                 ></iframe>
             </div>
@@ -18,4 +18,5 @@
 
 <script setup>
 import Layout from './layout.vue'
+import { links } from '../data/links.js'
 </script>
