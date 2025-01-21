@@ -1,6 +1,6 @@
-# Quantcamp 
+# Quantitative Trading Bootcamp 
 
-This is the website for Trading Bootcamp by Ricki Heicklen.
+This is the website for the Metagame LLC project Quant Trading Bootcamp. It lives at trading.camp. 
 
 ## Setup
 
@@ -12,4 +12,4 @@ This is the website for Trading Bootcamp by Ricki Heicklen.
 
 ### Deploying
 
-As of 241128-00:24:34 the app is autodeployed by Jonathan Ng's personal netfliy, just push to main and it should autodeply 
+Push to main, it will auto deploy, uses Vercel 
