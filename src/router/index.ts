@@ -11,6 +11,13 @@ const routes = [
   { path: '/team', component: Team },
   { path: '/faq', component: FAQ },
   { path: '/socialproof', component: SocialProof },
+  {
+    path: '/corporate-partnerships',
+    redirect: () => {
+      window.open('https://bit.ly/qtb-corporate-partnerships', '_blank')
+      return false
+    }
+  }
 ]
 
 const router = createRouter({
