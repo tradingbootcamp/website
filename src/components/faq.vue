@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <div class="max-w-6xl mx-auto px-4 py-12">
+        <div class="max-w-7xl py-12 px-4 sm:px-8 lg:px-12">
             <h1 class="text-4xl font-bold text-gray-900 mb-8">FAQ</h1>
             <ul class="space-y-6">
                 <li class="bg-white p-6 rounded-lg shadow-md">
