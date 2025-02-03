@@ -21,7 +21,7 @@
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Can I volunteer in exchange for a discounted ticket?</strong>
-                    <p class="text-gray-700">We do occasionally price discriminate, but usually not for free. Depending on the camp, we might ask you to help out day-of, or recruit some number of full-paying participants, or providing a few hours of marketing consulting, or connecting us to a company that decides to <a target="_blank" href="https://bit.ly/qtb-corporate-partnerships" class="text-blue-600 hover:text-blue-800">sponsor us/have us run a private bootcamp</a>, etc.or some other thing that would be valuable to us.</p>
+                    <p class="text-gray-700">On rare occasions, we do occasionally price discriminate, but usually not for free. Depending on the camp, we might ask you to help out day-of, or recruit some number of full-paying participants, or providing a few hours of marketing consulting, or connecting us to a company that decides to <a target="_blank" href="https://bit.ly/qtb-corporate-partnerships" class="text-blue-600 hover:text-blue-800">sponsor us/have us run a private bootcamp</a>, etc.or some other thing that would be valuable to us.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Will this help me get a job?</strong>
@@ -30,6 +30,10 @@
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Is there any certification?</strong>
                     <p class="text-gray-700">Nope. For what it’s worth, I think most firms view those things as bullshit anyway, and the ones that do care about it aren’t that good. The quality firms basically only care about raw intelligence and ability to solve problems on the fly.</p>
+                </li>
+                <li class="bg-white p-6 rounded-lg shadow-md">
+                    <strong class="text-lg font-semibold">Do you offer refunds?</strong>
+                    <p class="text-gray-700">You can get refunded for half the amount you paid for the bootcamp per day that you didn’t attend. So, if you paid $1500 for a 5-day bootcamp and decided a week beforehand not to attend, we’ll reimburse you for $7.5k. If you decide one day into it that you don’t want to attend the rest of it, we’ll reimburse you for $600.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Do you run private bootcamps? Can my company/firm/org sponsor one of your public bootcamps?</strong>
