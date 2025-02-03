@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <div class="max-w-6xl mx-auto px-4 py-12">
+        <div class="max-w-6xl mx-auto px-4 py-12 mx-auto">
             <h2 class="text-4xl font-bold text-gray-900 mb-16 text-center">Get in Touch</h2>       
                 <div class="space-y-6">
                     <p class="text-gray-700 text-lg">

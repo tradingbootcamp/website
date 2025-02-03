@@ -107,7 +107,7 @@ const features = [
 }
 
 .hero-section {
-  @apply max-w-7xl py-12 px-4 sm:px-8 lg:px-12 bg-gradient-to-br from-white to-blue-50 relative overflow-hidden;
+  @apply max-w-7xl py-12 px-4 sm:px-8 lg:px-12 mx-auto bg-gradient-to-br from-white to-blue-50 relative overflow-hidden;
 }
 
 .hero-container {

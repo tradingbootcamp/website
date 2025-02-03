@@ -3,7 +3,7 @@
     <div class="min-h-screen bg-gray-50 flex flex-col">
       <!-- Navbar -->
       <nav class="bg-white shadow-sm flex-grow">
-        <div class="max-w-7xl px-4 sm:px-8 lg:px-12">
+        <div class="max-w-7xl px-4 sm:px-8 lg:px-12 mx-auto">
           <div class="flex justify-between h-16">
             <div class="flex items-center">
               <router-link to="/" class="hover:opacity-80 text-xl font-bold text-gray-800 hover:text-gray-900 flex items-center gap-1">
