@@ -3,7 +3,7 @@
     <div class="min-h-screen bg-gray-50 flex flex-col">
       <!-- Navbar -->
       <nav class="bg-white shadow-sm">
-        <div class="max-w-6xl mx-auto px-4">
+        <div class="max-w-7xl px-4 sm:px-8 lg:px-12 flex-grow">
           <div class="flex justify-between h-16">
             <div class="flex items-center">
               <router-link to="/" class="hover:opacity-80 text-xl font-bold text-gray-800 hover:text-gray-900 flex items-center gap-1">
@@ -14,7 +14,7 @@
             
             
             <!-- Desktop Menu -->
-            <div class="hidden md:flex items-center space-x-8">
+            <div class="hidden lg:flex items-center space-x-8">
               <router-link to="/" class="text-gray-600 hover:text-gray-900">Home</router-link>
               <router-link to="/schedule" class="text-gray-600 hover:text-gray-900">Schedule</router-link>
               <router-link to="/team" class="text-gray-600 hover:text-gray-900">Team</router-link>
@@ -26,7 +26,7 @@
               </a>
             </div>
   
-            <div class="md:hidden flex items-center">
+            <div class="lg:hidden flex items-center">
               <button
                 @click="isMenuOpen = !isMenuOpen"
                 class="text-gray-500 hover:text-gray-900"
@@ -39,14 +39,14 @@
         </div>
   
         <!-- Mobile Menu -->
-        <div v-if="isMenuOpen" class="md:hidden">
+        <div v-if="isMenuOpen" class="lg:hidden">
           <div class="px-2 pt-2 pb-3 space-y-1">
             <router-link to="/" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Home</router-link>
             <router-link to="/schedule" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Schedule</router-link>
             <router-link to="/team" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Team</router-link>
             <router-link to="/faq" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">FAQ</router-link>
             <router-link to="/socialproof" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Social Proof</router-link>
-            <router-link to="/corporate-partnerships" class="text-gray-600 hover:text-gray-900">Corporate Partnerships</router-link>
+            <router-link to="/corporate-partnerships" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50">Corporate Partnerships</router-link>
             <a :href="registerUrl" class="block w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
               Register Now
             </a>
