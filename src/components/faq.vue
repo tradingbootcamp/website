@@ -33,7 +33,7 @@
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Do you offer refunds?</strong>
-                    <p class="text-gray-700">You can get refunded for half the amount you paid for the bootcamp per day that you didn’t attend. So, if you paid $1500 for a 5-day bootcamp and decided a week beforehand not to attend, we’ll reimburse you for $7.5k. If you decide one day into it that you don’t want to attend the rest of it, we’ll reimburse you for $600.</p>
+                    <p class="text-gray-700">You can get refunded for half the amount you paid for the bootcamp per day that you didn’t attend. So, if you paid $1500 for a 5-day bootcamp and decided a week beforehand not to attend, we’ll reimburse you for $750. If you decide one day into it that you don’t want to attend the rest of it, we’ll reimburse you for $600.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Do you run private bootcamps? Can my company/firm/org sponsor one of your public bootcamps?</strong>
