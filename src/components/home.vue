@@ -5,39 +5,52 @@
       <div class="hero-container">
         <div class="hero-grid">
           <div class="hero-content">
-          <h1 class="hero-title">
-            Quantitative Trading Bootcamp
-        </h1>
-        <p class="hero-text">
-          Quantitative Trading Bootcamp teaches the fundamentals of quantitative trading: markets, order books, auctions, risk and sizing, adverse selection, arbitrage, and how quant trading firms make money.
-          <br />
-          <br />
-          The philosophy of this bootcamp is that the best way to learn to trade is by trading. We'll use a fake economy and exchange, run through many sessions of trading games designed to teach progressively more complex concepts, and auction off prizes at the end using our internal currency.
-        </p>
-        <p class="hero-text">
-          The course is taught by <a target="_blank" href="https://rickiheicklen.com/index.html" class="text-blue-600 hover:text-blue-800">Ricki Heicklen</a>, a former quantitative trader at Jane Street, along with a team of 3-5 others.
-        </p>
-        <div class="flex flex-col items-start gap-4">
-          <a target="_blank" :href="registerUrl" class="register-button">
-            Register now: Feb 12-17 (Bay Area) <ChevronRight class="ml-2" :size="24" />
-          </a>
-          <a target="_blank" :href="interestUrl" class="interest-button">
-            Interest Form
-            <ChevronRight class="ml-2" :size="24" />
-          </a>
-          <!-- <a target="_blank" :href="interestUrl" class="interest-button">
+            <h1 class="hero-title">Quantitative Trading Bootcamp</h1>
+            <p class="hero-text">
+              Quantitative Trading Bootcamp teaches the fundamentals of
+              quantitative trading: markets, order books, auctions, risk and
+              sizing, adverse selection, arbitrage, and how quant trading firms
+              make money.
+              <br />
+              <br />
+              The philosophy of this bootcamp is that the best way to learn to
+              trade is by trading. We'll use a fake economy and exchange, run
+              through many sessions of trading games designed to teach
+              progressively more complex concepts, and auction off prizes at the
+              end using our internal currency.
+            </p>
+            <p class="hero-text">
+              The course is taught by
+              <a
+                target="_blank"
+                href="https://rickiheicklen.com/index.html"
+                class="text-blue-600 hover:text-blue-800"
+                >Ricki Heicklen</a
+              >, a former quantitative trader at Jane Street, along with a team
+              of 3-5 others.
+            </p>
+            <div class="flex flex-col items-start gap-4">
+              <a target="_blank" :href="registerUrl" class="register-button">
+                March 21-26 (SF) — PYOL DISCOUNT!
+                <ChevronRight class="ml-2" :size="24" />
+              </a>
+              <a target="_blank" :href="interestUrl" class="interest-button">
+                Interest Form
+                <ChevronRight class="ml-2" :size="24" />
+              </a>
+              <!-- <a target="_blank" :href="interestUrl" class="interest-button">
             Interest Form
             <ChevronRight class="ml-2" :size="24" />
           </a> -->
-        </div>
-      </div>
-        <div class="image-container">
-          <img 
-            :src="rickiRossImage" 
-            alt="Ricki teaching at Trading Bootcamp" 
-            class="bootcamp-image"
-          />
-        </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <img
+              :src="rickiRossImage"
+              alt="Ricki teaching at Trading Bootcamp"
+              class="bootcamp-image"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -59,46 +72,47 @@
         <RandomTestimonial />
       </div>
     </div>
-
-
   </Layout>
 </template>
 
 <script setup>
-import { ChevronRight, BookOpen, TrendingUp, LineChart } from 'lucide-vue-next'
-import Layout from './layout.vue'
-import FeatureCard from './FeatureCard.vue'
-import rickiRossImage from '../assets/ricki_ross_bootcamp.jpg'
-import RandomTestimonial from './RandomTestimonial.vue'
-import { links } from '../data/links.js'
+import { ChevronRight, BookOpen, TrendingUp, LineChart } from "lucide-vue-next";
+import Layout from "./layout.vue";
+import FeatureCard from "./FeatureCard.vue";
+import rickiRossImage from "../assets/ricki_ross_bootcamp.jpg";
+import RandomTestimonial from "./RandomTestimonial.vue";
+import { links } from "../data/links.js";
 
-const registerUrl = links.register
-const registerFeb = links.registerFeb
-const interestUrl = links.interest
+const registerUrl = links.register;
+const registerFeb = links.registerFeb;
+const interestUrl = links.interest;
 
 const features = [
   {
-    title: 'Market Fundamentals',
-    description: 'Learn the basics of market mechanics, order books, and price discovery through hands-on trading simulations.',
-    icon: BookOpen
+    title: "Market Fundamentals",
+    description:
+      "Learn the basics of market mechanics, order books, and price discovery through hands-on trading simulations.",
+    icon: BookOpen,
   },
   {
-    title: 'Risk Management',
-    description: 'Master position sizing, risk assessment, and portfolio management strategies.',
-    icon: TrendingUp
+    title: "Risk Management",
+    description:
+      "Master position sizing, risk assessment, and portfolio management strategies.",
+    icon: TrendingUp,
   },
   {
-    title: 'Quantitative Analysis',
-    description: 'Understand how to use data and statistics to make informed trading decisions.',
-    icon: LineChart
-  }
-]
-
+    title: "Quantitative Analysis",
+    description:
+      "Understand how to use data and statistics to make informed trading decisions.",
+    icon: LineChart,
+  },
+];
 </script>
 
 <style scoped>
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0) rotate(0deg);
   }
   50% {
