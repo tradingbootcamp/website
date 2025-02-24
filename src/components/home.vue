@@ -31,7 +31,7 @@
             </p>
             <div class="flex flex-col items-start gap-4">
               <a target="_blank" :href="registerUrl" class="register-button">
-                March 21-26 (SF) — PYOL DISCOUNT!
+                March 21-26 (SF) — MATS DISCOUNT!
                 <ChevronRight class="ml-2" :size="24" />
               </a>
               <a target="_blank" :href="interestUrl" class="interest-button">
