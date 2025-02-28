@@ -51,7 +51,7 @@ defineProps({
 .team-member-bio {
   font-size: 1.125rem; /* Changed to match home.vue */
   line-height: 1.6;
-  text-align: justify;
+  text-align: left;
   color: #555;
   margin: 0;
   padding: 1.5rem; /* Increased from 1rem */

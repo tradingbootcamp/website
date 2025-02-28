@@ -4,12 +4,21 @@
             <h1 class="text-4xl font-bold text-gray-900 mb-8">FAQ</h1>
             <ul class="space-y-6">
                 <li class="bg-white p-6 rounded-lg shadow-md">
+                    <strong class="text-lg font-semibold">Who should take Quantitative Trading Bootcamp?</strong>
+                    <ul class="text-gray-700">People who are considering quant finance. You can use 4-5 days to get an answer to basic questions like 'do you like it' and 'are you good at it' before applying to internships and devoting a summer to it.
+                    </ul>
+                    <ul class="text-gray-700">Instrumental rationality... think like a trader...
+                    </ul>
+                    <ul class="text-gray-700">Trading Camp has been described by many participants as very fun. 
+                    </ul>
+                </li>
+                <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">What level of coding knowledge/language do you need to know in order to benefit from the course?</strong>
                     <p class="text-gray-700">Having some programming experience is pretty important for getting value out of the second half of the bootcamp. The first two days involve zero coding and the third and fourth have more, but we intentionally put you on pairs/teams that are balanced so that even if someone doesn’t have as much programming skills they can still contribute and learn. Feel free to reach out (hello at trading dot camp) if you're unsure.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">What level of math background is required?</strong>
-                    <p class="text-gray-700">There’s basically no content prerequisites, in that the bootcamp won’t use calculus or linear algebra or anything. That being said, it's pretty helpful to be a person comfortable thinking in mathematical frameworks - in particular the concept of expected value/probability. A lot of trading is about fast heuristic reasoning instead of having precise or sophisticated mathematical models, but those heuristics are still shaped by mathematics intuitions. If you’re “not a math person” it’s likely going to be a bad fit, but if you’re “into math but haven’t taken high level classes yet” that’s 100% fine and common</p>
+                    <p class="text-gray-700">There’s basically no content prerequisites, in that the bootcamp won’t rely on calculus or linear algebra. That being said, it's pretty helpful to be comfortable thinking in mathematical frameworks - in particular the concept of expected value/probability. A lot of trading is about fast heuristic reasoning instead of having precise or sophisticated mathematical models, but those heuristics are still shaped by mathematics intuitions. If you’re “not a math person” it’s likely going to be a bad fit, but if you’re “into math but haven’t taken high level classes yet” that’s 100% fine and common.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Is housing provided?</strong>
@@ -21,7 +30,7 @@
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Can I volunteer in exchange for a discounted ticket?</strong>
-                    <p class="text-gray-700">On rare occasions, we do occasionally price discriminate, but usually not for free. Depending on the camp, we might ask you to help out day-of, or recruit some number of full-paying participants, or providing a few hours of marketing consulting, or connecting us to a company that decides to <a target="_blank" href="https://bit.ly/qtb-corporate-partnerships" class="text-blue-600 hover:text-blue-800">sponsor us/have us run a private bootcamp</a>, etc.or some other thing that would be valuable to us.</p>
+                    <p class="text-gray-700">On rare occasions, we do occasionally price discriminate, but usually not for free. Examples of past volunteering: helping out day-of, recruiting some number of full-paying participants, providing a few hours of marketing consulting, or connecting us to a company that decides to <a target="_blank" href="https://bit.ly/qtb-corporate-partnerships" class="text-blue-600 hover:text-blue-800">sponsor us/have us run a private bootcamp</a>.</p>
                 </li>
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Will this help me get a job?</strong>

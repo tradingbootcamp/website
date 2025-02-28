@@ -43,20 +43,9 @@ const teamMembers = [
   {
     id: 3,
     name: 'Ross Rheingans-Yoo',
-    bio: 'Ross left his job at a well-regarded trading firm in 2022 to work at a new philanthropic foundation funded by crypto money, where he learned that the worst part about not working in trading is not getting to teach early-career traders. (It turns out that the worst part of your philanthropic foundation shutting down because the crypto money collapsed among allegations of fraud is that you still don\'t get to teach early-career traders.) Fortunately, the free market seems to have devised a solution to that problem.',
+    bio: 'Ross left his job at a well-regarded trading firm in 2022 to work at a new philanthropic foundation funded by crypto money, where he learned that the worst part about not working in trading is not getting to teach early-career traders.', 
+    //(It turns out that the worst part of your philanthropic foundation shutting down because the crypto money collapsed among allegations of fraud is that you still don\'t get to teach early-career traders.) Fortunately, the free market seems to have devised a solution to that problem.',
     image: rossImage
-  },
-  {
-    id: 4,
-    name: 'Nicholas Charette',
-    bio: 'Nicholas is going to get me his bio any minute now.',
-    image: nicholasImage
-  },
-  {
-    id: 5,
-    name: 'Saul Munn',
-    bio: 'Saul, like Nicholas, is so close to getting his bio in. So close.',
-    image: saulImage
   }
 ]
 </script>
