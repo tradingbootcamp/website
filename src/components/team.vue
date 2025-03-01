@@ -25,13 +25,14 @@ import yoavImage from '../assets/yoav_headshot.jpg'
 import rossImage from '../assets/rossry_4.jpg'
 import nicholasImage from '../assets/nicholas_headshot.jpeg'
 import saulImage from '../assets/saul_munn.png'
+import tanmayImage from '../assets/tanmay.png'
 
 
 const teamMembers = [
   {
     id: 1,
     name: 'Ricki Heicklen',
-    bio: 'Ricki runs this bootcamp, where she gets to fulfill her lifelong dream of yelling at people for their trade mistakes. In the past, she\'s worked in quant trading, electoral forecasting, teaching, writing, software development, data science, and briefly, construction. She likes to plan weird events.',
+    bio: 'Ricki started QTB to fulfill her lifelong dream of doing game design and telling people what to do. In the past, she\'s worked in quant trading, electoral forecasting, teaching, writing, software development, data science, and briefly, construction.',
     image: rickiImage
   },
   {
@@ -43,9 +44,27 @@ const teamMembers = [
   {
     id: 3,
     name: 'Ross Rheingans-Yoo',
-    bio: 'Ross left his job at a well-regarded trading firm in 2022 to work at a new philanthropic foundation funded by crypto money, where he learned that the worst part about not working in trading is not getting to teach early-career traders.', 
+    bio: 'Ross left his job at a well-regarded trading firm in 2022 to work at a new philanthropic foundation funded by crypto money, where he learned that the worst part about not working in trading is not getting to teach early-career traders. Fortunately, the free market seems to have devised a solution to that problem.', 
     //(It turns out that the worst part of your philanthropic foundation shutting down because the crypto money collapsed among allegations of fraud is that you still don\'t get to teach early-career traders.) Fortunately, the free market seems to have devised a solution to that problem.',
     image: rossImage
+  },
+  {
+    id: 4,
+    name: 'Nicholas Charette',
+    bio: 'Nicholas came to QTB after meeting Ricki as an Atlas Fellow. He works at Standard Intelligence as a generalist engineer and AI researcher, and makes programming languages for fun.',
+    image: nicholasImage
+  },
+  { 
+    id: 5,
+    name: 'Saul Munn',
+    bio: 'Saul has worked on Manifest (festival for predictions, markets, and mechanisms), Manifund (philanthropic startup), OPTIC (university-level forecasting), and other projects.',
+    image: saulImage
+  },
+  {
+    id: 6,
+    name: 'Tanmay Khale',
+    bio: 'Tanmay is a math PhD student at the University of Illinois Urbana Champaign. He likes math, philosophy, and markets.',
+    image: tanmayImage
   }
 ]
 </script>
@@ -68,6 +87,7 @@ const teamMembers = [
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   justify-items: center;
+  justify-content: center;
   max-width: 1400px;
   margin: 0 auto;
 }

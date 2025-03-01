@@ -3,15 +3,15 @@
         <div class="max-w-7xl py-12 px-4 sm:px-8 lg:px-12 mx-auto">
             <h1 class="text-4xl font-bold text-gray-900 mb-8">FAQ</h1>
             <ul class="space-y-6">
-                <li class="bg-white p-6 rounded-lg shadow-md">
+                <!---<li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">Who should take Quantitative Trading Bootcamp?</strong>
-                    <ul class="text-gray-700">People who are considering quant finance. You can use 4-5 days to get an answer to basic questions like 'do you like it' and 'are you good at it' before applying to internships and devoting a summer to it.
+                    <ul class="text-gray-700">People who are considering quant finance. You can use 4-5 days to get an answer to questions like 'do you like it' and 'are you good at it' before applying to internships and devoting a summer to it.
                     </ul>
-                    <ul class="text-gray-700">Instrumental rationality... think like a trader...
+                    <ul class="text-gray-700">People who want to learn to think like a trader, maybe without a career motivation! There are many benefits to being able to think like a trader...
                     </ul>
                     <ul class="text-gray-700">Trading Camp has been described by many participants as very fun. 
                     </ul>
-                </li>
+                </li>-->
                 <li class="bg-white p-6 rounded-lg shadow-md">
                     <strong class="text-lg font-semibold">What level of coding knowledge/language do you need to know in order to benefit from the course?</strong>
                     <p class="text-gray-700">Having some programming experience is pretty important for getting value out of the second half of the bootcamp. The first two days involve zero coding and the third and fourth have more, but we intentionally put you on pairs/teams that are balanced so that even if someone doesn’t have as much programming skills they can still contribute and learn. Feel free to reach out (hello at trading dot camp) if you're unsure.</p>

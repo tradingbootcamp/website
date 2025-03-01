@@ -19,7 +19,7 @@
               <router-link to="/schedule" class="text-gray-600 hover:text-gray-900">Schedule</router-link>
               <router-link to="/team" class="text-gray-600 hover:text-gray-900">Team</router-link>
               <router-link to="/faq" class="text-gray-600 hover:text-gray-900">FAQ</router-link>
-              <router-link to="/socialproof" class="text-gray-600 hover:text-gray-900">Social Proof</router-link>
+              <router-link to="/socialproof" class="text-gray-600 hover:text-gray-900">News & Testimonials</router-link>
               <router-link to="/corporate-partnerships" class="text-gray-600 hover:text-gray-900">Corporate Partnerships</router-link>
               <a target="_blank" :href="registerUrl" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                 Register Now
