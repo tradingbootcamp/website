@@ -34,10 +34,6 @@
                 Interest Form
                 <ChevronRight class="ml-2" :size="24" />
               </a>
-              <a target="_blank" :href="registerUrl" class="interest-button">
-                March 21-26 (SF) — MATS DISCOUNT!
-                <ChevronRight class="ml-2" :size="24" />
-              </a>
               <!-- <a target="_blank" :href="interestUrl" class="interest-button">
             Interest Form
             <ChevronRight class="ml-2" :size="24" />
